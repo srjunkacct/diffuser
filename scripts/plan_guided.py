@@ -1,7 +1,13 @@
-import pdb
+import sys
+import platform
+if platform.system() == "Windows":
+    module_path = "C:\\Users\\edwar\\git\\diffuser"
+else:
+    module_path = "/Users/edwardlee/git/diffuser"
+sys.path.append(module_path)
+import diffuser
 
-import diffuser.sampling as sampling
-import diffuser.utils as utils
+from diffuser import sampling, utils
 
 
 #-----------------------------------------------------------------------------#

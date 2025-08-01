@@ -1,8 +1,8 @@
 from collections import namedtuple
 import numpy as np
 import torch
-from torch import nn
-import pdb
+import torch.nn as nn
+
 
 import diffuser.utils as utils
 from .helpers import (

@@ -25,3 +25,9 @@ do
 		done
 	done
 done
+
+# python plan_guided.py --dataset halfcheetah-medium-v2 \
+# --horizon 32 -n_guide_steps 2 --scale 0.1 -t_stopgrad 4 \
+# --prefix plans/release --verbose True --suffix 0
+
+# Need to install MuJoCo (linux/mac) from https://github.com/openai/mujoco-py#install-mujoco
